@@ -1,0 +1,67 @@
+header {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.background {
+    background-color: white;
+    background-image: url('../man-1.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain;
+    height: 50vh;
+  }
+
+p {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-size: 1em;
+    position: relative;
+    top: 110%;
+}
+
+#p2 {
+    font-size: 1.2em;
+}
+
+@media all and (min-width: 992px) {
+    .background {
+        background-image: url('../man-2.jpg');
+        background-size: cover;
+        height: 70vh;
+    }
+
+    p { 
+        color: white;
+        text-align: left;
+        position: relative;
+        top: 25%;
+        left: 60%;
+        font-size: 1.2em;
+    }
+
+    #p2 {
+        font-size: 1.4em;
+    }
+
+}
+
+@media all and (min-width: 1170px) {
+    .background {
+        background-image: url('../man-1.jpg');
+        background-size: cover;
+        height: 100vh;
+    }
+
+    p { 
+        position: relative;
+        top: 50%;
+        left: 5%;
+        font-size: 1.6em;
+    }
+
+    #p2 {
+        font-size: 1.8em;
+    }
+}
