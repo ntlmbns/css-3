@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14pt;
@@ -8,7 +12,7 @@ header {
     background-image: url('../man-1.jpg');
     background-repeat: no-repeat;
     background-position: top center;
-    background-size: contain;
+    background-size: cover;
     height: 50vh;
   }
 
@@ -35,10 +39,10 @@ p {
 
     p { 
         color: white;
-        text-align: left;
+        text-align: right;
+        margin: 5%;
         position: relative;
         top: 25%;
-        left: 60%;
         font-size: 1.2em;
     }
 
@@ -56,9 +60,9 @@ p {
     }
 
     p { 
+        text-align: left;
         position: relative;
-        top: 50%;
-        left: 5%;
+        top: 40%;
         font-size: 1.6em;
     }
 
