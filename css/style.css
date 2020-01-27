@@ -24,6 +24,7 @@ p {
     font-size: 1em;
     position: relative;
     top: 110%;
+    margin: 0;
 }
 
 #p2 {
@@ -40,9 +41,9 @@ p {
     p { 
         color: white;
         text-align: right;
-        margin: 5%;
         position: relative;
         top: 25%;
+        right: 15%;
         font-size: 1.2em;
     }
 
@@ -63,6 +64,7 @@ p {
         text-align: left;
         position: relative;
         top: 40%;
+        left: 10%;
         font-size: 1.6em;
     }
 
